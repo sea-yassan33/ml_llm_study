@@ -13,7 +13,17 @@
 
 ## Python環境構築について
 - Python環境構築方法は、[Python環境構築](https://github.com/sea-yassan33/prediction_project/blob/main/document/01_Python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89.md)を参照してください。
-- Pythonrライブラリのインストール方法は、[インストール方法](https://github.com/sea-yassan33/prediction_project/blob/main/document/02_Python%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA.md)を参照してください。
+- 「予測モデル作成」を行う際に必要なライブラリは以下の通りです。ターミナルにて以下のコマンドを実行してインストールしてください。
+
+```sh
+pip install numpy
+pip install pandas
+pip install scikit-learn
+pip install matplotlib
+pip install seaborn
+pip install jupyter
+```
+
 - VSCodeにて開発を行う場合は、[機能拡張導入](https://github.com/sea-yassan33/prediction_project/blob/main/document/03_VScode%E3%81%A7%E3%81%AE%E6%A9%9F%E8%83%BD%E6%8B%A1%E5%BC%B5.md)を参照してください。
 
 ## 参考
